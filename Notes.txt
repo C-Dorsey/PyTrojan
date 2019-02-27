@@ -1,0 +1,6 @@
+base64 -i shellcode.raw > shellcode.bin
+
+python -m SimpleHTTPServer
+
+What will be seen after launching the server
+Serving HTTP on 0.0.0.0 port 8000
